@@ -1,0 +1,524 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+}
+.navbar{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    box-shadow:1px 1px 10px #000000;
+}
+
+.logo{
+    display: inline;
+    text-align: left;
+    padding-left: 80px;
+    padding-top: 10px;
+    font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logo h1{
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px #989191;
+}
+span{
+     color: #000000;
+    text-shadow: none;
+    text-shadow: 1px 1px 1px #989191;
+
+}
+
+.var{
+display: flex;
+
+gap: 50px;
+margin-right: 80px;
+margin-top: 10px;
+}
+
+.var ul li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-weight: 500px;
+    
+
+}
+p{
+  color: white;  
+  justify-content: center;
+  font-size: 20px;
+  font-family: "Yusei Magic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.cont{
+    display: flex;
+   justify-content: space-evenly;
+}
+.nm{
+    width: 400px;
+    height: 400px;
+    
+}
+.text{
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.title{
+    background-color: #7f21c2;
+   height: 70px;
+   width:  300px;
+   margin-top: 30px;
+   margin-left: 80px;
+   box-shadow:1px 1px 10px #000000;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   line-height: 70px;
+}
+
+h2{
+    color: white;
+    text-shadow: 1px 1px 10px #000000;
+    font-size: 50px;
+    font-family: "Bowlby One SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color:  #eeeeee;
+    border-radius: 20px;
+    margin: 10px;
+}
+.foto{
+    background-color: rgb(110, 18, 159);
+    border-radius: 200px;
+    box-shadow:1px 1px 10px #000000;
+}
+
+.visionmision{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+::-webkit-scrollbar-thumb {
+    background: #7f21c2; /* Color de la barra de desplazamiento */
+    border-radius: 10px; /* Radio de borde de la barra de desplazamiento */
+  }
+  .nm:hover { /* Reducir el brillo al 70% */
+    transform: scale(1.1); 
+    transition: 1s;/* Aumentar ligeramente el tamaño */
+}
+
+a:hover{
+    color: #857f8a;
+    text-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+
+.lo{
+    width: 90%;
+    height: 100%;
+    display: block;
+}
+
+.fotomain{
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.textsobre{
+    position: absolute;
+    top: 50%; /* Coloca el texto en la mitad superior del contenedor */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translate(-50%, -50%); /* Centra vertical y horizontalmente */
+    text-align: center; /* Opcional: centrar el texto */
+    color: white; /* Color del texto */
+    background-color: rgba(0, 0, 0, 0); /* Fondo semi-transparente para mejor legibilidad */
+    padding: 5px;
+}
+
+.textsobre h2{
+    color: #000000;
+    background-color: transparent;
+    text-shadow: none;
+    font-family: "Russo One", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 100px;
+  background-color: #ffffff7d;
+  border-radius: none;
+}
+.textsobre span{
+    color: #000000;
+    background-color: transparent;
+   
+    font-family: "Russo One", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 100px;
+}
+
+.textsobre p{
+    color: #ffffff;
+    text-shadow: 0px 0px 10px #000000;
+    margin-bottom: 30px;
+
+}
+
+.textsobre button{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600px;
+  box-shadow: 0px 0px 5px #000000;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.501);
+  color: #ffffff;
+  border: 2px solid #ffffff;
+
+}
+.redes{
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-around;
+    width:300px;
+}
+
+.textsobre button:hover{
+    transform: scale(1.1); 
+    transition: 1s;
+    cursor: pointer;
+    background-color: #615b65d7;
+    color: white;
+    box-shadow: 0px 0px 5px #ffffff;
+}
+
+.pri{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.pro1{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.pro1 img{
+    height: auto;
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 50px;
+    
+}
+
+.pro1{
+    box-shadow: 0px 0px 5px #000000;
+    height: 500px;
+    width: 400px;
+    border-radius: 15px;
+}
+.pro1:hover{
+    transform: scale(1.1); 
+    transition: 1s;
+    cursor: pointer;
+    box-shadow: 0px 0px 50px #7f21c2;
+}
+
+.texto1 h2{
+    background-color: transparent;
+    font-family: "Black Han Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.texto2 h2{
+    background-color: transparent;
+    font-family: "Black Han Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.texto3 h2{
+    background-color: transparent;
+    font-family: "Black Han Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.texto2{
+    text-align: center;
+    margin-top: 88px;
+}
+.texto1{
+    text-align: center;
+    margin-top: 70px;
+}
+.texto3{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.img3{
+    margin-top: -40px;
+}
+
+.img1 img{
+    transform: rotate(-20deg);
+
+}
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 300px;
+    width:  100%;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.fotr{
+    height: 300px;
+    width: 450px;
+}
+
+.fotr h2{
+    background-color: transparent;
+    color: #ffffff;
+    text-shadow: none;
+    font-size: 30px;
+    font-weight: 500px;
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.fotr p{
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.fotr p:hover{
+    color: #7f21c2;
+}
+
+.fotr button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.fotr button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid #ffffff;
+    transform: scale(1.1); 
+    transition: 1s;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #000000;
+}
+.bajo{
+display: flex;
+justify-content: space-between;
+background-color: #000000;
+}
+
+.per1{
+    display: flex;
+}
+.per2{
+   display: flex;
+    
+}
+
+.per1 p{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+
+}
+.per2 p{
+    margin: 10px;
+    padding-left: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.per2 p:hover{
+
+    color: #7f21c2;
+    cursor: pointer;
+}
+.carrusel{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.productofto{
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 500px;
+    border-radius: 15px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    box-shadow:0px 0px 10px #000000;
+
+}
+
+.productofto h2{
+    background-color: transparent;
+   color: #000000;
+   text-shadow: none;
+   font-size: 25px;
+    font-weight: 500px;
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+text-align: center;
+;
+}
+
+.productofto img{
+   height: auto;
+   width: 100%;
+}
+
+.productofto h3{
+    color: #727171;
+    text-align: center;
+    margin-top: 5px;
+    
+ }
+ .productofto h4{
+    color: #a5a2a2;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 900px;
+    margin-top: 5px;
+    font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+ }
+
+ .productofto button{
+    width: 200px;
+    height: 40px;
+    margin-top: 15px;
+    background-color: #000000;
+    color: white;
+    margin-left: 32px;
+    box-shadow: none;
+    cursor: pointer;
+ }
+
+ .productofto button:hover{
+    color: #000000;
+    background-color: white;
+    transform: scale(1.1);
+    transition: 1s;
+ }
+ .productofto:hover{
+    border: 2px solid;
+   
+ }
+
+ .zapa3{
+    transform: scaleX(-1);
+ }
+
+ .zapa1{
+   justify-content: center;
+ }
+
+ .zapa1 img{
+   transform: scaleX(-1);
+
+ }
+
+ .detallezapa1{
+    display: block;
+    justify-content: space-around;
+    align-content: center;
+   
+   height: 125px; 
+   width: 220px;
+   margin-left: 15px;
+ }
+
+ .detallezapa1 button{
+    margin-left: 9px;
+ }
+ .zapa5 img{
+    transform: scaleX(-1);
+  }
+
+  
+ .detallezapa1{
+    display: block;
+        justify-content: space-around;
+
+       height: 80px; 
+       width: 220px;
+       margin-left: 15px;
+       margin-top: -40px;
+      
+     }
+     
+
+  .nombre{
+    display: flex;
+    justify-content: space-around;
+    height: 50px; 
+       width: 220px;
+       margin-left: 15px;
+       margin-top: -50px;
+       margin-bottom: 20px;
+  }
+
+  .TABAS{
+    letter-spacing: 5px;
+    text-shadow: none;
+    background-color: transparent;
+    font-weight: 500px;
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      font-size: 80px;
+      color: black;
+  }
